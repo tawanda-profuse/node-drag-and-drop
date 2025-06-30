@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { NodeTemplate } from "../NodeTemplate";
 
-const ImageNode = ({id}) => {
+const ImageNode = ({ id }) => {
   const [imageSrc, setImageSrc] = useState(null);
 
   const handleImageChange = (e) => {
@@ -30,12 +30,7 @@ const ImageNode = ({id}) => {
             className="nodrag"
           />
           {imageSrc && (
-            <img
-              src={imageSrc}
-              alt="Selected"
-              style={{ maxHeight: "150px", objectFit: "contain", marginTop: 8 }}
-              className="nodrag"
-            />
+            <img src={imageSrc} alt="Selected" className="nodrag image-node" />
           )}
         </>
       ),
@@ -49,7 +44,7 @@ const ImageNode = ({id}) => {
 
   return (
     <NodeTemplate
-    id={id}
+      id={id}
       title="Image Node"
       fields={fields}
       handles={handles}

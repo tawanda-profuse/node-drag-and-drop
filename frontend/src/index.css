@@ -77,6 +77,12 @@ nav {
   }
 }
 
+.image-node {
+  max-height: 150px;
+  object-fit: contain;
+  margin-top: 8px;
+}
+
 .remove-node-button {
   position: absolute;
   top: 4px;
