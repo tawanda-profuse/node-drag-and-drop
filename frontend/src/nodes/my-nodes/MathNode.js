@@ -17,7 +17,7 @@ export const MathNode = ({ id, data }) => {
         { id: `${id}-output`, type: 'source', position: 'right' },
       ]}
       styles={{
-        backgroundColor: "orangered",
+        backgroundColor: "#666",
         color: "white"
       }}
     />

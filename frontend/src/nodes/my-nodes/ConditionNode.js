@@ -35,8 +35,8 @@ export const ConditionNode = ({ id, data }) => {
         },
       ]}
       styles={{
-        backgroundColor: "chocolate",
-        color: "lightcyan"
+        backgroundColor: "tomato",
+        color: "white"
       }}
     />
   );

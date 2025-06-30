@@ -31,6 +31,10 @@ nav {
   }
 }
 
+.canvas-background {
+  background-color: #ddd;
+}
+
 .node-template {
   width: 220px;
   border: "1px solid black";
@@ -59,7 +63,12 @@ nav {
   }
 }
 
-.text-node {
+.text-node-parent {
+  position: relative;
+  min-width: 200px;
+}
+
+.text-node-child {
   position: absolute;
   right: 100;
   display: flex;

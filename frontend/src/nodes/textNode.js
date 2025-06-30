@@ -40,7 +40,7 @@ export const TextNode = ({ id, data }) => {
   const handles = [outputHandle];
 
   return (
-    <div style={{ position: "relative", minWidth: 200 }}>
+    <div className="text-node-parent">
       <NodeTemplate
         id={id}
         title="Text"
@@ -63,7 +63,7 @@ export const TextNode = ({ id, data }) => {
             style={{
               top: topOffset,
             }}
-            className="text-node"
+            className="text-node-child"
           >
             <span>{variable}</span>
             <Handle

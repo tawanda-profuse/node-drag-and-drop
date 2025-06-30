@@ -120,7 +120,7 @@ export const PipelineUI = () => {
           <Background
             color="#000"
             size={3}
-            style={{ backgroundColor: "#ddd" }}
+            className="canvas-background"
             gap={gridSize}
           />
           <Controls />
