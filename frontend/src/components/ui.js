@@ -12,11 +12,11 @@ import { OutputNode } from "../nodes/outputNode";
 import { TextNode } from "../nodes/textNode";
 
 import "reactflow/dist/style.css";
-import { MarkdownNode } from "../nodes/my-nodes/markdownNode";
-import ImageNode from "../nodes/my-nodes/ImageNode";
-import VideoNode from "../nodes/my-nodes/VideoNode";
-import { MathNode } from "../nodes/my-nodes/MathNode";
-import { ConditionNode } from "../nodes/my-nodes/ConditionNode";
+import { MarkdownNode } from "../nodes/custom-nodes/markdownNode";
+import ImageNode from "../nodes/custom-nodes/ImageNode";
+import VideoNode from "../nodes/custom-nodes/VideoNode";
+import { MathNode } from "../nodes/custom-nodes/MathNode";
+import { ConditionNode } from "../nodes/custom-nodes/ConditionNode";
 
 const gridSize = 20;
 const proOptions = { hideAttribution: true };
