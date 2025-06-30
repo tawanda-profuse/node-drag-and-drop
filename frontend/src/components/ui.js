@@ -124,7 +124,7 @@ export const PipelineUI = () => {
             gap={gridSize}
           />
           <Controls />
-          <MiniMap nodeColor="purple" />
+          <MiniMap nodeColor="orange" />
         </ReactFlow>
       </div>
     </>

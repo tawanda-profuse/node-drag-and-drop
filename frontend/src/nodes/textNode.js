@@ -61,27 +61,11 @@ export const TextNode = ({ id, data }) => {
           <div
             key={variable}
             style={{
-              position: "absolute",
-              right: "100%",
               top: topOffset,
-              display: "flex",
-              alignItems: "center",
             }}
+            className="text-node"
           >
-            <span
-              style={{
-                background: "#eee",
-                padding: "2px 6px",
-                borderRadius: 4,
-                fontSize: 12,
-                color: "green",
-                border: "1px solid black",
-                whiteSpace: "nowrap",
-                fontWeight: "bold",
-              }}
-            >
-              {variable}
-            </span>
+            <span>{variable}</span>
             <Handle
               type="target"
               position="left"

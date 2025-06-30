@@ -57,6 +57,7 @@ export const SubmitButton = () => {
     <>
       <div className="submitButton">
         <button
+          title="Click to determine the type of graph on the canvas"
           type="submit"
           onClick={handleSubmit}
           disabled={isPending}
