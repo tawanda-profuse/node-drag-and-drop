@@ -66,6 +66,7 @@ export const NodeTemplate = ({
             position={handle.position}
             id={handle.id}
             style={{ padding: "2px", ...(handle.style || {}) }}
+            title="Click and drag to another handle"
           />
         ))}
     </div>

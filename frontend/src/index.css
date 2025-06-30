@@ -1,3 +1,7 @@
+:root{
+  --primary: orangered;
+  --secondary: orange;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -63,7 +67,7 @@ code {
   flex-wrap: wrap;
   gap: 1rem;
   padding: 10px;
-  background-color: indigo;
+  background-color: var(--primary);
 }
 
 .draggable-node {
@@ -85,18 +89,18 @@ code {
 }
 
 .instruction{
-  color: indigo;
+  color: var(--primary);
   font-weight: 600; 
   text-align: center;
 }
 
 .submitButton {
   display: flex;
-  background-color: indigo;
+  background-color: var(--primary);
 
   button {
     background-color: white;
-    color: purple;
+    color: var(--primary);
     font-size: 1rem;
     outline: none;
     border: none;
@@ -127,7 +131,7 @@ code {
   button {
     outline: none;
     border: none;
-    background-color: blueviolet;
+    background-color: var(--secondary);
     color: white;
     font-size: 2rem;
     padding: 0 1rem;
