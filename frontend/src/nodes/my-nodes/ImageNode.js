@@ -30,7 +30,7 @@ const ImageNode = ({ id }) => {
             className="nodrag"
           />
           {imageSrc && (
-            <img src={imageSrc} alt="Selected" className="nodrag image-node" />
+            <img src={imageSrc} alt="Selected" className="nodrag media-node" />
           )}
         </>
       ),

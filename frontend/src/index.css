@@ -77,10 +77,14 @@ nav {
   }
 }
 
-.image-node {
+.media-node {
   max-height: 150px;
   object-fit: contain;
   margin-top: 8px;
+}
+
+.video-node {
+  width: 100%;
 }
 
 .remove-node-button {

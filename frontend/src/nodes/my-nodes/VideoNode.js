@@ -29,13 +29,7 @@ const VideoNode = ({id}) => {
             <video
               src={videoSrc}
               controls
-              style={{
-                maxHeight: "150px",
-                width: "100%",
-                marginTop: 8,
-                objectFit: "contain",
-              }}
-              className="nodrag"
+              className="nodrag media-node video-node"
             />
           )}
         </>
